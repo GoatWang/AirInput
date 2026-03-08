@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# Working files
+prompts/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models (large binary files)
+models/
+*.bin
+*.gguf
+*.safetensors
+
+# Build from source (reproducible via setup.sh)
+whisper.cpp/
+llama.cpp/
+openai-whisper/
